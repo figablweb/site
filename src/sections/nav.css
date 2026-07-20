@@ -5,3 +5,6 @@ nav .container{display:flex;align-items:center;justify-content:space-between;hei
 .nav-links{display:flex;align-items:center;gap:36px;}
 .nav-links a{font-size:13px;color:var(--muted);text-decoration:none;}
 .nav-links a.btn{color:var(--cream);}
+
+.nav-toggle{display:none;}
+.nav-toggle-box{display:none;}
