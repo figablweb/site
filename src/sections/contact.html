@@ -6,19 +6,21 @@
         <h2>Turn your inventory into growth capital.</h2>
         <p>A fifteen-minute call and a quick share of your data is usually all it takes to see how much capital you&rsquo;ve been leaving on the warehouse shelf.</p>
         <div class="contact-cta">
-          <a class="btn btn-primary" href="mailto:info@figabl.com?subject=Book%20a%20call">Book a call</a>
-          <a class="btn btn-outline light" href="mailto:info@figabl.com">Email our team</a>
+          <a class="btn btn-primary" href="https://calendar.app.google/vNXogxjwiYyicVS7A" target="_blank" rel="noopener">Book a call</a>
+          <a class="btn btn-outline light" href="#contact-form">Email our team</a>
         </div>
       </div>
-      <div class="form-card">
-        <form>
-          <div class="form-group"><label>Company</label><input type="text" placeholder="Your company"></div>
+      <div class="form-card" id="contact-form">
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p style="display:none;"><label>Leave this empty: <input name="bot-field"></label></p>
+          <div class="form-group"><label>Company</label><input type="text" name="company" placeholder="Your company"></div>
           <div class="form-row">
-            <div class="form-group"><label>First name</label><input type="text"></div>
-            <div class="form-group"><label>Last name</label><input type="text"></div>
+            <div class="form-group"><label>First name</label><input type="text" name="first-name"></div>
+            <div class="form-group"><label>Last name</label><input type="text" name="last-name"></div>
           </div>
-          <div class="form-group"><label>Email</label><input type="email"></div>
-          <div class="form-group"><label>Message</label><textarea placeholder="Tell us a little about your business"></textarea></div>
+          <div class="form-group"><label>Email</label><input type="email" name="email" required></div>
+          <div class="form-group"><label>Message</label><textarea name="message" placeholder="Tell us a little about your business"></textarea></div>
           <button class="btn btn-primary" type="submit">Submit</button>
         </form>
       </div>

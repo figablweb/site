@@ -52,6 +52,7 @@ ${html}
 
 mkdirSync(join(root, "dist"), { recursive: true });
 cpSync(join(root, "fonts"), join(root, "dist", "fonts"), { recursive: true });
+cpSync(join(root, "og.png"), join(root, "dist", "og.png"));
 writeFileSync(join(root, "dist", "index.html"), page);
 
 const kb = (Buffer.byteLength(page) / 1024).toFixed(1);
