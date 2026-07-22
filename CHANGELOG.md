@@ -1,6 +1,10 @@
 # Changelog
 
 ## [Unreleased]
+### Fixed
+- Wired contact form to Netlify Forms: submissions are now captured, with named
+  fields and a honeypot for spam protection.
+
 ### Changed
 - Split single-file `figabl_redesign.html` (573 lines) into `src/` sections + build step.
 - Extracted 3 base64 Oxygen fonts (41 KB of the original file) to real `.woff2` files;
