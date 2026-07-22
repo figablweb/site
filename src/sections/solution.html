@@ -24,28 +24,33 @@
     </div>
     <div class="stack-strip">
       <div class="viz">
-        <svg width="340" height="252" viewBox="0 0 460 340" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <!-- dotted axis -->
-          <line x1="170" y1="8" x2="170" y2="332" stroke="#C4673A" stroke-width="1.2" stroke-dasharray="2 6"/>
-          <!-- Figabl slab (with thickness) -->
-          <polygon points="170,20 250,60 170,100 90,60" fill="#C4673A"/>
-          <polygon points="90,60 170,100 170,114 90,74" fill="#9E522C"/>
-          <polygon points="90,60 170,100 170,114 90,74" fill="#A3542E"/>
-          <polygon points="250,60 170,100 170,114 250,74" fill="#8F4926"/>
-          <!-- other capital -->
-          <polygon points="170,140 250,180 170,220 90,180" fill="none" stroke="#6E675E" stroke-width="1.3"/>
-          <!-- equity -->
-          <polygon points="170,240 250,280 170,320 90,280" fill="none" stroke="#6E675E" stroke-width="1.3"/>
+        <svg width="360" height="252" viewBox="0 0 545 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- merchant's stack: dotted axis -->
+          <line x1="330" y1="30" x2="330" y2="285" stroke="#6E675E" stroke-width="1.1" stroke-dasharray="2 6"/>
+          <!-- bank facilities layer (wire) -->
+          <polygon points="330,60 410,100 330,140 250,100" fill="none" stroke="#6E675E" stroke-width="1.3"/>
+          <!-- equity layer (wire) -->
+          <polygon points="330,160 410,200 330,240 250,200" fill="none" stroke="#6E675E" stroke-width="1.3"/>
           <!-- leaders + labels -->
-          <line x1="258" y1="64" x2="296" y2="64" stroke="#C4673A" stroke-width="1" stroke-dasharray="3 4"/>
-          <text x="304" y="68" font-family="Oxygen,sans-serif" font-size="14" fill="#C4673A">Figabl · first out</text>
-          <line x1="258" y1="180" x2="296" y2="180" stroke="#6E675E" stroke-width="1" stroke-dasharray="3 4"/>
-          <text x="304" y="184" font-family="Oxygen,sans-serif" font-size="13" fill="#A39B8F">other capital</text>
-          <line x1="258" y1="280" x2="296" y2="280" stroke="#6E675E" stroke-width="1" stroke-dasharray="3 4"/>
-          <text x="304" y="284" font-family="Oxygen,sans-serif" font-size="13" fill="#A39B8F">equity</text>
+          <line x1="418" y1="100" x2="440" y2="100" stroke="#6E675E" stroke-width="1" stroke-dasharray="3 4"/>
+          <text x="446" y="104" font-family="Oxygen,sans-serif" font-size="13" fill="#A39B8F">your bank</text>
+          <text x="446" y="120" font-family="Oxygen,sans-serif" font-size="13" fill="#A39B8F">facilities</text>
+          <line x1="418" y1="200" x2="440" y2="200" stroke="#6E675E" stroke-width="1" stroke-dasharray="3 4"/>
+          <text x="446" y="204" font-family="Oxygen,sans-serif" font-size="13" fill="#A39B8F">equity</text>
+          <text x="330" y="312" font-family="Oxygen,sans-serif" font-size="11" letter-spacing="2" fill="#6E675E" text-anchor="middle">YOUR CAPITAL STACK</text>
+          <!-- Figabl slab, outside the stack -->
+          <polygon points="110,110 190,150 110,190 30,150" fill="#C4673A"/>
+          <polygon points="30,150 110,190 110,204 30,164" fill="#A3542E"/>
+          <polygon points="190,150 110,190 110,204 190,164" fill="#8F4926"/>
+          <line x1="198" y1="150" x2="242" y2="150" stroke="#C4673A" stroke-width="1.3" stroke-dasharray="2 6"/>
+          <text x="110" y="238" font-family="Oxygen,sans-serif" font-size="13" fill="#C4673A" text-anchor="middle">Figabl</text>
+          <text x="110" y="256" font-family="Oxygen,sans-serif" font-size="12" fill="#A39B8F" text-anchor="middle">your customer</text>
         </svg>
       </div>
-      <p>Because we rank <span class="acc">first in the capital stack</span>, we&rsquo;re always protected, which is exactly what lets us be this flexible with merchants.</p>
+      <div>
+        <span class="label">Where we sit</span>
+        <p style="margin-top:14px;">Figabl sits beside your capital stack. We buy title to your inventory, so we&rsquo;re <span class="acc">your customer, not your creditor</span>. Often compatible with bank lines. Flexible with founders, by design.</p>
+      </div>
     </div>
   </div>
 </section>

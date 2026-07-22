@@ -14,4 +14,22 @@
   .statement .big,.whole .big{font-size:28px;}
   .ethos-item{border-right:none;padding:24px 0;}
   .ethos-grid{border-left:none;}
+  /* mobile spacing + scaling fixes */
+  .hero{padding-top:44px;}
+  .hero .grid{gap:36px;}
+  .hero-art{width:100%;max-width:440px;}
+  .hero-bottom-pad{padding-bottom:64px;}
+  .problem .grid{gap:44px;}
+  .gapviz{width:100%;}
+  .gapviz svg{width:100%;height:auto;}
+  .stack-strip{gap:32px;padding:36px 28px;}
+  .stack-strip .viz{width:100%;}
+  .stack-strip .viz svg{width:100%;max-width:400px;height:auto;}
+  .problem,.solution,.ethos,.steps,.whyband,.results,.team{padding-top:72px;padding-bottom:76px;}
+  .statement,.whole,.contact{padding-top:84px;padding-bottom:84px;}
+  .team .grid,.contact .grid{gap:44px;}
+  .foot-top{flex-direction:column;align-items:flex-start;gap:22px;}
+  .foot-links{flex-wrap:wrap;gap:14px 26px;}
+  .foot-bottom{flex-direction:column;align-items:flex-start;gap:10px;}
+
 }
