@@ -10,3 +10,10 @@
 .member .name{font-size:18px;font-weight:700;}
 .member .role{font-size:12px;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);margin-top:3px;}
 .member .bio{font-size:14px;line-height:1.6;color:var(--muted);margin-top:8px;}
+
+.member .avatar.li{text-decoration:none;color:#fff;font-weight:700;font-size:15px;letter-spacing:0.5px;}
+.member .avatar.li:hover{background:#8F4926;}
+.member .name a{color:var(--ink);text-decoration:none;border-bottom:1.5px solid rgba(196,103,58,0.5);}
+.member .name a:hover{border-bottom-color:var(--accent);color:var(--accent);}
+.member .postnom{font-size:12px;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);margin-left:8px;}
+.member .creds{font-size:12.5px;color:var(--accent);margin-top:4px;opacity:0.85;}
