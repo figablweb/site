@@ -8,3 +8,5 @@ nav .container{display:flex;align-items:center;justify-content:space-between;hei
 
 .nav-toggle{display:none;}
 .nav-toggle-box{display:none;}
+
+.nav-cta-mobile{display:none;}
