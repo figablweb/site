@@ -12,3 +12,5 @@
 .form-group textarea{height:84px;resize:vertical;padding-top:13px;}
 .form-group input::placeholder,.form-group textarea::placeholder{color:#8A8378;}
 .form-card .btn{width:100%;text-align:center;padding:16px 0;border:none;}
+
+.form-card{scroll-margin-top:90px;}
