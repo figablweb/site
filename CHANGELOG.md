@@ -1,6 +1,12 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- Privacy Statement page at `/privacy/` (effective August 10, 2026), built from
+  `src/pages/privacy.{html,css,json}` and sharing the site's nav, footer and styles.
+- `build.mjs` now builds any page in `src/pages/` to `dist/<name>/index.html`.
+- "Privacy" link in the footer.
+
 ### Fixed
 - Wired contact form to Netlify Forms: submissions are now captured, with named
   fields and a honeypot for spam protection.
