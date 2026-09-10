@@ -1,0 +1,40 @@
+a:focus-visible,label:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}
+
+/* page head */
+.doc-head{padding:88px 0 56px;border-bottom:1px solid var(--border);}
+.doc-head h1{font-size:56px;line-height:1.06;letter-spacing:-1.4px;margin-top:18px;}
+.doc-head .meta{font-size:15px;color:var(--muted);margin-top:22px;}
+
+/* body: contents rail + article */
+.doc{display:grid;grid-template-columns:220px minmax(0,680px);gap:80px;padding:64px 0 120px;}
+.toc{position:sticky;top:110px;align-self:start;}
+.toc .label{display:block;margin-bottom:18px;}
+.toc ol{list-style:none;border-left:1px solid var(--border);}
+.toc a{display:block;font-size:13px;line-height:1.4;color:var(--muted);text-decoration:none;padding:6px 0 6px 16px;margin-left:-1px;border-left:1px solid transparent;}
+.toc a:hover{color:var(--ink);border-left-color:var(--accent);}
+
+article p{font-size:16px;line-height:1.72;color:var(--muted);margin-top:16px;}
+article p strong{color:var(--ink);font-weight:700;}
+article .intro p{font-size:18px;line-height:1.65;color:var(--ink);}
+article .intro p + p{color:var(--muted);font-size:16px;}
+article section{padding-top:56px;scroll-margin-top:90px;}
+article h2{font-size:28px;line-height:1.25;letter-spacing:-0.3px;color:var(--ink);}
+article ul{list-style:none;margin-top:18px;}
+article li{position:relative;font-size:16px;line-height:1.65;color:var(--muted);padding-left:24px;margin-top:10px;}
+article li::before{content:"";position:absolute;left:2px;top:10px;width:6px;height:6px;background:var(--ink);}
+article a{color:var(--accent);text-decoration:none;}
+article a:hover{text-decoration:underline;}
+
+.short{background:var(--card);border:1px solid var(--border);border-top:3px solid var(--accent);padding:36px 40px 38px;margin-top:48px;}
+.short h2{font-size:24px;}
+.short li{color:var(--ink);}
+
+.address{font-style:normal;font-size:16px;line-height:1.72;color:var(--ink);margin-top:16px;padding:24px 28px;border:1px solid var(--border);background:var(--card);}
+
+@media (max-width:1020px){
+  .doc-head{padding:48px 0 40px;}
+  .doc-head h1{font-size:40px;}
+  .doc{grid-template-columns:1fr;gap:0;padding:24px 0 80px;}
+  .toc{display:none;}
+  .short{padding:28px 24px 30px;}
+}
